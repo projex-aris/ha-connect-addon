@@ -1,16 +1,16 @@
 name: "HA Connect"
-version: "0.3.0"
+version: "0.3.1"
 slug: ha_connect
 description: >-
   Remote-Zugang zu Home Assistant ohne Portfreigabe.
   Pairing-Code vom HA-Connect-Dashboard eingeben – fertig.
-url: "https://github.com/phil8458/ha-connect-addon"
+url: "https://github.com/projex-aris/ha-connect-addon"
 arch:
   - amd64
   - aarch64
   - armv7
 # Prebuilt multi-arch image – Pi muss nicht lokal bauen
-image: "ghcr.io/phil8458/ha-connect-addon"
+image: "ghcr.io/projex-aris/ha-connect-addon"
 init: false
 startup: services
 boot: auto

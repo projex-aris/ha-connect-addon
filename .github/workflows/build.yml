@@ -10,7 +10,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE: ghcr.io/phil8458/ha-connect-addon
+  IMAGE: ghcr.io/projex-aris/ha-connect-addon
 
 jobs:
   build:
@@ -66,6 +66,6 @@ jobs:
           || gh api \
             --method PUT \
             -H "Accept: application/vnd.github+json" \
-            "/orgs/phil8458/packages/container/ha-connect-addon/visibility" \
+            "/users/projex-aris/packages/container/ha-connect-addon/visibility" \
             -f visibility=public \
           || echo "Bitte Package manuell auf Public setzen: GitHub → Packages → ha-connect-addon → Package settings → Change visibility"

@@ -12,7 +12,7 @@ Live-API: https://ha-connect.com
 3. URL hinzufügen:
 
    ```text
-   https://github.com/phil8458/ha-connect-addon
+   https://github.com/projex-aris/ha-connect-addon
    ```
 
 4. App **HA Connect** installieren (lädt vorgebautes Image von GHCR – kein lokaler Build auf dem Pi)
@@ -21,7 +21,7 @@ Live-API: https://ha-connect.com
    - `pairing_code`: Code aus dem Dashboard (https://ha-connect.com)
 6. Starten und Logs prüfen
 
-Image: `ghcr.io/phil8458/ha-connect-addon` (amd64 / arm64 / armv7)
+Image: `ghcr.io/projex-aris/ha-connect-addon` (amd64 / arm64 / armv7)
 
 ## Struktur
 
